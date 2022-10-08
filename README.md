@@ -20,9 +20,11 @@ It starts capturing and displays the words you say, also saves audio to file **o
 ### Troubleshooting
 
 1. Low sound quality
-Maybe you're using some bluetooth airbuds like "airpods". Especialy for Linux, the input sound frequency is limited to 8000 at bluetooth stack, 16000 is a minimal frequency for VOSK to work well. A dedicated wired/wireless microphone should work.
+
+Maybe you're using some bluetooth airbuds like "airpods". For system like Linux, the input sound frequency is limited to 8000 at bluetooth stack, 16000 is a minimal frequency for VOSK to work well. A dedicated wired/wireless microphone should work.
 
 2. It doesn't work at all
+
 Open the system sound manager, verify the recording device while this program is capturing. Sometimes a wrong device is choosed by default.
 
 ### Build from source
