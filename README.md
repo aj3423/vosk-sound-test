@@ -4,7 +4,7 @@
 
   
 ### What it does:
-1. Capture audio input and send to VOSK-server
+1. Capture audio input and send to a local voice recognition engine
 2. Play back the captured sound
 3. Record voice to a ".wav" file
 
