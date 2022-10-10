@@ -32,3 +32,6 @@ Open the system sound manager, verify the recording device while this program is
 1. `git clone https://github.com/aj3423/vosk-sound-test`
 2. `cd vosk-sound-test`
 3. `go build .`
+
+### License
+MIT
